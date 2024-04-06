@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <style>
         .outlin
 {
@@ -14,8 +15,8 @@
     height: 25px;
     background-color: rgb(255, 255,255);
     border: none;
-    display: inline;
-    margin: 0;
+    
+   margin-right: 0;
 }
 #ads
 {    margin: 0;
@@ -31,13 +32,10 @@
         <input type="text" id="content">
         <button onclick=add() type="button" id="ad">+</button>
         <ul id="need">
-            <li><span id="space" style="height: 100px;">hi</span><button onclick=del(event) type='button'>delete</button></li>
-        </ul>
-        
+            <li><span class="s">hi</span><button onclick=del(event) type='button' class="b">del</button></li>
+        </ul>  
     </div>
-    <script src="java.js">
+    <script src="script.js">
     </script>
 </body>
 </html>
-
-
