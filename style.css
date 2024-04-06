@@ -1,0 +1,59 @@
+.outlin
+{
+    position: relative;
+    border: 10px solid black;
+    outline: 10px;
+   width:300px;
+   height: 200px;
+   margin-left: 40%;
+   margin-top: 20%;
+}
+#content
+{
+    padding-left: 5px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-right: 0;
+}
+#ad
+{
+    border-radius: 10px;
+    padding:6px ;
+    width: 38px;
+}
+#ad:hover
+{
+    background-color: red;
+}
+ul li 
+{
+    list-style: square;
+    width: 85%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: grey;
+}
+.b
+{
+ 
+    background-color: rgb(67, 63, 63);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.b:hover
+
+{
+    background-color: red;
+}
+.s
+{
+    margin-right: 175px;
+    border-radius: 15px;
+    
+}
+#need
+{
+    padding-top: 15px;
+}
